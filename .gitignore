@@ -1,0 +1,4 @@
+﻿__pycache__/
+*.py[cod]
+data/embed_cache.pkl
+data/raw_papers/

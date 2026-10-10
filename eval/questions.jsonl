@@ -1,0 +1,35 @@
+
+{"id": "n01", "type": "paraphrase", "question": "What change to the base of the structure made it safer against high water?", "doc": "marlow_bridge", "evidence": "each pier rested on bedrock instead of river gravel", "answerable": true}
+{"id": "n02", "type": "paraphrase", "question": "What can learners use if they cannot install anything on their computer?", "doc": "quill_language", "evidence": "A web playground lets students run code without installing anything", "answerable": true}
+{"id": "n03", "type": "paraphrase", "question": "What footwear do athletes wear because the ground is slippery?", "doc": "skerryball", "evidence": "rubber-soled shoes because the playing surface is often wet rock", "answerable": true}
+{"id": "n04", "type": "paraphrase", "question": "How much electricity did the spacecraft generate when it reached its target?", "doc": "aurelia_probe", "evidence": "together produced 900 watts near Veth", "answerable": true}
+{"id": "n05", "type": "paraphrase", "question": "Why was that particular shade chosen for the restored crossing?", "doc": "marlow_bridge", "evidence": "Green was chosen because it matched the color of the surrounding pine forest", "answerable": true}
+{"id": "n06", "type": "paraphrase", "question": "What hand-applied treatment do the wheels get while they mature?", "doc": "brindle_cheese", "evidence": "brushed with a mixture of salt water and annatto", "answerable": true}
+{"id": "n07", "type": "numeric", "question": "How many keywords does Quill have?", "doc": "quill_language", "evidence": "has only fourteen keywords", "answerable": true}
+{"id": "n08", "type": "numeric", "question": "For how long are Brindle wheels soaked in brine?", "doc": "brindle_cheese", "evidence": "soaked in brine for two days", "answerable": true}
+{"id": "n09", "type": "numeric", "question": "How many instruments did Aurelia carry?", "doc": "aurelia_probe", "evidence": "It carried six instruments", "answerable": true}
+{"id": "n10", "type": "numeric", "question": "How close to the dairy must the milk be collected?", "doc": "brindle_cheese", "evidence": "collected within 15 kilometers of the dairy", "answerable": true}
+{"id": "n11", "type": "numeric", "question": "How much does a Skerryball weigh?", "doc": "skerryball", "evidence": "weighs 380 grams", "answerable": true}
+{"id": "n12", "type": "numeric", "question": "How long does a Skerryball match last?", "doc": "skerryball", "evidence": "a match lasts three periods of twenty minutes", "answerable": true}
+{"id": "n13", "type": "nearby_fact", "question": "In what year did construction of the Marlow Bridge begin?", "doc": "marlow_bridge", "evidence": "Construction began in 1917", "answerable": true}
+{"id": "n14", "type": "nearby_fact", "question": "In what year was the Marlow Bridge closed for repairs?", "doc": "marlow_bridge", "evidence": "In 1987 the bridge was closed for repairs", "answerable": true}
+{"id": "n15", "type": "nearby_fact", "question": "How many years did the Marlow Bridge restoration take?", "doc": "marlow_bridge", "evidence": "The restoration took four years", "answerable": true}
+{"id": "n16", "type": "nearby_fact", "question": "How much extra time did the foundation redesign add?", "doc": "marlow_bridge", "evidence": "added eleven months to the schedule", "answerable": true}
+{"id": "n17", "type": "nearby_fact", "question": "When was Quill first released?", "doc": "quill_language", "evidence": "first released in 2011", "answerable": true}
+{"id": "n18", "type": "nearby_fact", "question": "For how many years was the Aurelia probe designed to operate?", "doc": "aurelia_probe", "evidence": "designed to operate for five years", "answerable": true}
+{"id": "n19", "type": "cross_doc", "question": "Which team sport began in the same year a steel arch bridge was completed?", "doc": "skerryball", "evidence": "first played in 1923, the same year the Marlow Bridge opened", "answerable": true}
+{"id": "n20", "type": "cross_doc", "question": "Who won the most recent Gull Cup?", "doc": "skerryball", "evidence": "The most recent winner was the team from Dunmore in 2024", "answerable": true}
+{"id": "n21", "type": "cross_doc", "question": "What was the total cost of building the bridge?", "doc": "marlow_bridge", "evidence": "raised the total cost to 3.2 million crowns", "answerable": true}
+{"id": "n22", "type": "cross_doc", "question": "Which place lets kids under twelve in for free?", "doc": "marlow_bridge", "evidence": "children under twelve enter free", "answerable": true}
+{"id": "n23", "type": "negation", "question": "Are helmets compulsory in Skerryball?", "doc": "skerryball", "evidence": "Helmets are not required but are recommended for beginners", "answerable": true}
+{"id": "n24", "type": "negation", "question": "Does Quill check its values before the program starts?", "doc": "quill_language", "evidence": "All values are checked when the program runs, not before", "answerable": true}
+{"id": "n25", "type": "negation", "question": "Does Quill have a compiler?", "doc": "quill_language", "evidence": "it has no compiler", "answerable": true}
+{"id": "n26", "type": "multi_hop", "question": "How many years passed between the Marlow Bridge opening and its closure for restoration?", "doc": "marlow_bridge", "evidence": "In 1987 the bridge was closed for repairs", "answerable": true}
+{"id": "n27", "type": "multi_hop", "question": "Which happened earlier: the Aurelia launch or the release of Quill's debugger?", "doc": "aurelia_probe", "evidence": "launched in March 2014", "answerable": true}
+{"id": "n28", "type": "multi_hop", "question": "Which is older: the protected status of the Brindle name or the Quill language?", "doc": "brindle_cheese", "evidence": "Since 2004 the name Brindle has been protected", "answerable": true}
+{"id": "n29", "type": "unanswerable", "question": "What temperature are the Brindle aging caves kept at?", "doc": null, "evidence": null, "answerable": false}
+{"id": "n30", "type": "unanswerable", "question": "How deep is the ocean on the moon Osk?", "doc": null, "evidence": null, "answerable": false}
+{"id": "n31", "type": "unanswerable", "question": "Which club has won the Gull Cup the second most times?", "doc": null, "evidence": null, "answerable": false}
+{"id": "n32", "type": "unanswerable", "question": "What caused the Great Flood of 1919?", "doc": null, "evidence": null, "answerable": false}
+{"id": "n33", "type": "unanswerable", "question": "How many people cross the Marlow Bridge each year?", "doc": null, "evidence": null, "answerable": false}
+{"id": "n34", "type": "unanswerable", "question": "What was the total mission cost of the Aurelia probe?", "doc": null, "evidence": null, "answerable": false}

@@ -1,0 +1,24 @@
+{"id": "q01", "type": "factual", "question": "How many times fewer trainable parameters does LoRA need compared with full fine-tuning of GPT-3 175B?", "doc": "LoRa", "evidence": "10,000 times", "answerable": true}
+{"id": "q02", "type": "factual", "question": "Does LoRA slow down inference compared with a fully fine-tuned model?", "doc": "LoRa", "evidence": "no additional inference latency", "answerable": true}
+{"id": "q03", "type": "exact_term", "question": "What does the rank r control in LoRA, and how small can it be?", "doc": "LoRa", "evidence": "one or two suffices", "answerable": true}
+{"id": "q04", "type": "vague", "question": "Why is it cheaper to adapt a huge pretrained model this way instead of retraining it?", "doc": "LoRa", "evidence": "10,000 times", "answerable": true}
+{"id": "q05", "type": "factual", "question": "Chinchilla was trained with the same compute as which larger model?", "doc": "Chinchilla", "evidence": "same compute budget as Gopher", "answerable": true}
+{"id": "q06", "type": "factual", "question": "How should model size and training data be scaled together, according to the Chinchilla paper?", "doc": "Chinchilla", "evidence": "scaled equally", "answerable": true}
+{"id": "q07", "type": "vague", "question": "Were big language models getting the most out of their compute, and what did the authors find?", "doc": "Chinchilla", "evidence": "scaled equally", "answerable": true}
+{"id": "q08", "type": "factual", "question": "What average accuracy did Chinchilla reach on the MMLU benchmark?", "doc": "Chinchilla", "evidence": "67.5% on the MMLU benchmark", "answerable": true}
+{"id": "q09", "type": "factual", "question": "What hardware was the base Transformer trained on?", "doc": "NIPS", "evidence": "8 NVIDIA P100 GPUs", "answerable": true}
+{"id": "q10", "type": "factual", "question": "What BLEU score did the big Transformer reach on English-to-German translation?", "doc": "NIPS", "evidence": "28.4 BLEU", "answerable": true}
+{"id": "q11", "type": "exact_term", "question": "Why are the dot products divided by the square root of d_k in scaled dot-product attention?", "doc": "NIPS", "evidence": "dot products grow large in magnitude", "answerable": true}
+{"id": "q12", "type": "exact_term", "question": "How does the Transformer encode token positions without recurrence?", "doc": "NIPS", "evidence": "sine and cosine functions of different frequencies", "answerable": true}
+{"id": "q14", "type": "factual", "question": "What does RAG use as its non-parametric memory?", "doc": "RAG", "evidence": "dense vector index of Wikipedia", "answerable": true}
+{"id": "q15", "type": "exact_term", "question": "What are the two RAG formulations the paper compares?", "doc": "RAG", "evidence": "RAG-Sequence", "answerable": true}
+{"id": "q16", "type": "factual", "question": "How was Wikipedia split into documents for the retrieval index?", "doc": "RAG", "evidence": "disjoint 100-word chunks", "answerable": true}
+{"id": "q17", "type": "vague", "question": "Why combine a language model with a search index instead of relying on the model alone?", "doc": "RAG", "evidence": "dense vector index of Wikipedia", "answerable": true}
+{"id": "q18", "type": "factual", "question": "How does the small InstructGPT model compare with the 175B GPT-3 in human preference?", "doc": "InsrtuctGPT", "evidence": "100x fewer parameters", "answerable": true}
+{"id": "q19", "type": "exact_term", "question": "What does the paper call the drop in performance on public NLP benchmarks after alignment?", "doc": "InsrtuctGPT", "evidence": "alignment tax", "answerable": true}
+{"id": "q20", "type": "vague", "question": "How do they teach a model to follow what people actually want?", "doc": "InsrtuctGPT", "evidence": "reinforcement learning from human feedback", "answerable": true}
+{"id": "q21", "type": "unanswerable", "question": "What was the total dollar cost of training Chinchilla?", "doc": null, "evidence": null, "answerable": false}
+{"id": "q22", "type": "unanswerable", "question": "Does the LoRA paper report results on Llama 2?", "doc": null, "evidence": null, "answerable": false}
+{"id": "q23", "type": "unanswerable", "question": "What BLEU score did the Transformer get on Chinese-to-English translation?", "doc": null, "evidence": null, "answerable": false}
+{"id": "q24", "type": "unanswerable", "question": "What does Chinchilla think is the best TV brand?", "doc": null, "evidence": null, "answerable": false}
+{"id": "q25", "type": "unanswerable", "question": "Which vector database did the RAG paper use in production?", "doc": null, "evidence": null, "answerable": false}
